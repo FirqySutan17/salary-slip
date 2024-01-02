@@ -309,6 +309,31 @@
         }
     </style> --}}
     <style>
+        @font-face {
+            font-family: RobotoBold;
+            src: url("{{ asset('font/Roboto-Bold.ttf') }}");
+        }
+
+        @font-face {
+            font-family: OpenSans;
+            src: url("{{ asset('font/OpenSans.ttf') }}");
+        }
+
+        @font-face {
+            font-family: RobotoMedium;
+            src: url("{{ asset('font/Roboto-Medium.ttf') }}");
+        }
+
+        @font-face {
+            font-family: RobotoReguler;
+            src: url("{{ asset('font/Roboto-Regular.ttf') }}");
+        }
+
+        * {
+            font-family: OpenSans;
+            font-size: 13px
+        }
+
         body {
             background: rgb(204, 204, 204);
             padding: 0;
