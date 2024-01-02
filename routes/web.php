@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Dashboard Route
+Route::get('/slip-pdf', [App\Http\Controllers\SalarySlipController::class, 'salary_slip'])->name('salary');
