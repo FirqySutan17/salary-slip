@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 // Dashboard Route
 Route::get('/slip-pdf', [App\Http\Controllers\SalarySlipController::class, 'salary_slip'])->name('salary');
+Route::get('/slip-pdf-generate', [App\Http\Controllers\SalarySlipController::class, 'salary_slip_generate'])->name('salary_generate');
